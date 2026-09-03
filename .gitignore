@@ -1,0 +1,33 @@
+# Proxy and certificates
+x509up*
+*.pem
+*.key
+
+# Data and ROOT outputs
+*.root
+*.root.*
+output/
+output_*/
+work/
+
+# CMSSW builds
+CMSSW_*/
+
+# Logs and temporary files
+*.log
+*.stdout
+*.stderr
+logs/*.log
+logs/*.stdout
+logs/*.stderr
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# System / editor files
+.DS_Store
+*.swp
+*~

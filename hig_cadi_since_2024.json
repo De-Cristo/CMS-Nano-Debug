@@ -1,0 +1,1892 @@
+[
+  {
+    "id": 19526,
+    "customIdentifier": "HIG-24-003",
+    "title": "Search for VVH(bb) production through Vector Boson Scattering",
+    "paperIdentifier": "HIG-24-003",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 15,
+      "name": "Published"
+    },
+    "proponents": [
+      {
+        "id": 10757,
+        "name": "Leonardo Giannini"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2026-09-03",
+    "gitlabpasrepo": "https://gitlab.cern.ch/tdr/notes/HIG-24-003",
+    "pasCDS": "https://cds.cern.ch/record/2937650",
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": "https://gitlab.cern.ch/tdr/papers/HIG-24-003"
+  },
+  {
+    "id": 19722,
+    "customIdentifier": "HIG-25-004",
+    "title": "Higgs width with H-&amp;gt;gamma gamma interference",
+    "paperIdentifier": "HIG-25-004",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 12,
+      "name": "Submitted"
+    },
+    "proponents": [
+      {
+        "id": 14433,
+        "name": "Mattia Campana"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2026-09-02",
+    "gitlabpasrepo": "https://gitlab.cern.ch/tdr/notes/HIG-25-004",
+    "pasCDS": null,
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": "https://gitlab.cern.ch/tdr/papers/HIG-25-004"
+  },
+  {
+    "id": 19535,
+    "customIdentifier": "HIG-24-005",
+    "title": "W polarization in Higgs to WW (full Run 2)",
+    "paperIdentifier": "HIG-24-005",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 212,
+      "name": "Preapproved"
+    },
+    "proponents": [
+      {
+        "id": 15633,
+        "name": "Sergio Blanco Fern\u00e1ndez"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2026-09-01",
+    "gitlabpasrepo": null,
+    "pasCDS": null,
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": null
+  },
+  {
+    "id": 19755,
+    "customIdentifier": "HIG-25-010",
+    "title": "H-&amp;gt;Zgamma with Run3 data",
+    "paperIdentifier": "HIG-25-010",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 11,
+      "name": "Ready for Submission"
+    },
+    "proponents": [
+      {
+        "id": 14645,
+        "name": "Michael Oshiro"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2026-09-01",
+    "gitlabpasrepo": "https://gitlab.cern.ch/tdr/notes/HIG-25-010",
+    "pasCDS": null,
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": "https://gitlab.cern.ch/tdr/papers/HIG-25-010"
+  },
+  {
+    "id": 19521,
+    "customIdentifier": "HIG-24-002",
+    "title": "High mass Higgs to ZZ(4l) (full Run 2)",
+    "paperIdentifier": "HIG-24-002",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 216,
+      "name": "Accepted"
+    },
+    "proponents": [
+      {
+        "id": 15767,
+        "name": "Geliang Liu"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2026-08-28",
+    "gitlabpasrepo": "https://gitlab.cern.ch/tdr/notes/HIG-24-002",
+    "pasCDS": "https://cds.cern.ch/record/2905051",
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": "https://gitlab.cern.ch/tdr/papers/HIG-24-002"
+  },
+  {
+    "id": 19915,
+    "customIdentifier": "HIG-26-010",
+    "title": "CMS HZZ and Hgg Higgs mass measurement",
+    "paperIdentifier": "HIG-26-010",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 212,
+      "name": "Preapproved"
+    },
+    "proponents": [
+      {
+        "id": 13965,
+        "name": "Chenguang Zhang"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2026-08-28",
+    "gitlabpasrepo": null,
+    "pasCDS": null,
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": "https://gitlab.cern.ch/tdr/papers/HIG-26-010"
+  },
+  {
+    "id": 19538,
+    "customIdentifier": "HIG-24-006",
+    "title": "Anomalous couplings in VH, VBF, ggH with H to gamma gamma",
+    "paperIdentifier": "HIG-24-006",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 210,
+      "name": "Journal Referee Comments"
+    },
+    "proponents": [
+      {
+        "id": 16380,
+        "name": "Federica De Riggi"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2026-08-27",
+    "gitlabpasrepo": "https://gitlab.cern.ch/tdr/notes/HIG-24-006",
+    "pasCDS": "https://cds.cern.ch/record/2937958",
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": "https://gitlab.cern.ch/tdr/papers/HIG-24-006"
+  },
+  {
+    "id": 19542,
+    "customIdentifier": "HIG-24-007",
+    "title": "H-&amp;gt;gamma gamma mass measurement (full Run2)",
+    "paperIdentifier": "HIG-24-007",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 210,
+      "name": "Journal Referee Comments"
+    },
+    "proponents": [
+      {
+        "id": 11908,
+        "name": "Fabio Iemmi"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2026-08-25",
+    "gitlabpasrepo": "https://gitlab.cern.ch/tdr/notes/HIG-24-007",
+    "pasCDS": "https://cds.cern.ch/record/2957193",
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": "https://gitlab.cern.ch/tdr/papers/HIG-24-007"
+  },
+  {
+    "id": 19756,
+    "customIdentifier": "HIG-25-011",
+    "title": "Spin-correlation measurements using H-&amp;gt;ZZ-&amp;gt;4 leptons decays",
+    "paperIdentifier": "HIG-25-011",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 214,
+      "name": "End CWR"
+    },
+    "proponents": [
+      {
+        "id": 11706,
+        "name": "Jeffrey Davis"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2026-08-23",
+    "gitlabpasrepo": "https://gitlab.cern.ch/tdr/notes/HIG-25-011",
+    "pasCDS": "https://cds.cern.ch/record/2949823",
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": "https://gitlab.cern.ch/tdr/papers/HIG-25-011"
+  },
+  {
+    "id": 19555,
+    "customIdentifier": "HIG-24-010",
+    "title": "Search for non-resonant HH production in 4b final state in 13.6 TeV data",
+    "paperIdentifier": "HIG-24-010",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 14,
+      "name": "Resubmitted"
+    },
+    "proponents": [
+      {
+        "id": 9075,
+        "name": "Stephane Cooperstein"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2026-08-22",
+    "gitlabpasrepo": "https://gitlab.cern.ch/tdr/notes/HIG-24-010",
+    "pasCDS": "https://cds.cern.ch/record/2947325",
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": "https://gitlab.cern.ch/tdr/papers/HIG-24-010"
+  },
+  {
+    "id": 19757,
+    "customIdentifier": "HIG-25-012",
+    "title": "Analysis of the CP structure of the Yukawa coupling between the Higgs boson and tau leptons in proton-proton collisions at sqrt(s) = 13.6 TeV",
+    "paperIdentifier": "HIG-25-012",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 216,
+      "name": "Accepted"
+    },
+    "proponents": [
+      {
+        "id": 16312,
+        "name": "Lucas Russell"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2026-08-20",
+    "gitlabpasrepo": "https://gitlab.cern.ch/tdr/notes/HIG-25-012",
+    "pasCDS": "https://cds.cern.ch/record/2957342",
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": "https://gitlab.cern.ch/tdr/papers/HIG-25-012"
+  },
+  {
+    "id": 19550,
+    "customIdentifier": "HIG-24-009",
+    "title": "Search for a Higgs boson produced in association with a charm quark and decaying to a W boson pair in proton-proton collisions at $\\sqrt{s}$ = 13 TeV",
+    "paperIdentifier": "HIG-24-009",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 15,
+      "name": "Published"
+    },
+    "proponents": [
+      {
+        "id": 12397,
+        "name": "Ming-yan Lee"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2026-08-19",
+    "gitlabpasrepo": "https://gitlab.cern.ch/tdr/notes/HIG-24-009",
+    "pasCDS": "https://cds.cern.ch/record/2931856",
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": "https://gitlab.cern.ch/tdr/papers/HIG-24-009"
+  },
+  {
+    "id": 19226,
+    "customIdentifier": "HIG-21-018",
+    "title": "Higgs STXS Combination and Couplings",
+    "paperIdentifier": "HIG-21-018",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 15,
+      "name": "Published"
+    },
+    "proponents": [
+      {
+        "id": 13433,
+        "name": "Jonathon Langford"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2026-08-11",
+    "gitlabpasrepo": "https://gitlab.cern.ch/tdr/notes/HIG-21-018",
+    "pasCDS": "https://cds.cern.ch/record/2929999",
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": "https://gitlab.cern.ch/tdr/papers/HIG-21-018"
+  },
+  {
+    "id": 19782,
+    "customIdentifier": "HIG-25-018",
+    "title": "HH2b2W in di-leptonic channel",
+    "paperIdentifier": "HIG-25-018",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 15,
+      "name": "Published"
+    },
+    "proponents": [
+      {
+        "id": 15578,
+        "name": "Mathis Frahm"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2026-08-11",
+    "gitlabpasrepo": "https://gitlab.cern.ch/tdr/notes/HIG-25-018",
+    "pasCDS": "https://cds.cern.ch/record/2953905",
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": "https://gitlab.cern.ch/tdr/papers/HIG-25-018"
+  },
+  {
+    "id": 19567,
+    "customIdentifier": "HIG-24-014",
+    "title": "Very low mass Higgs to gamma gamma (10-70 GeV) - Run2",
+    "paperIdentifier": "HIG-24-014",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 15,
+      "name": "Published"
+    },
+    "proponents": [
+      {
+        "id": 12856,
+        "name": "Elisa Fontanesi"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2026-08-11",
+    "gitlabpasrepo": "https://gitlab.cern.ch/tdr/notes/HIG-24-014",
+    "pasCDS": "https://cds.cern.ch/record/2927383",
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": "https://gitlab.cern.ch/tdr/papers/HIG-24-014"
+  },
+  {
+    "id": 19107,
+    "customIdentifier": "HIG-20-011",
+    "title": "Non-Resonant HH combination (full Run2)",
+    "paperIdentifier": "HIG-20-011",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 216,
+      "name": "Accepted"
+    },
+    "proponents": [
+      {
+        "id": 7882,
+        "name": "Agni Bethani"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2026-08-11",
+    "gitlabpasrepo": "https://gitlab.cern.ch/tdr/notes/HIG-20-011",
+    "pasCDS": "https://cds.cern.ch/record/2917252",
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": "https://gitlab.cern.ch/tdr/papers/HIG-20-011"
+  },
+  {
+    "id": 19575,
+    "customIdentifier": "HIG-24-016",
+    "title": "non-resonant ttHH in l+4b (full Run2)",
+    "paperIdentifier": "HIG-24-016",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 206,
+      "name": "Analysis Approved"
+    },
+    "proponents": [
+      {
+        "id": 9140,
+        "name": "Aurore Savoy-Navarro"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2026-07-30",
+    "gitlabpasrepo": "https://gitlab.cern.ch/tdr/notes/HIG-24-016",
+    "pasCDS": "https://cds.cern.ch/record/2968938",
+    "pasReadyforPUB": "true",
+    "gitlabpaperrepo": "https://gitlab.cern.ch/tdr/papers/HIG-24-016"
+  },
+  {
+    "id": 19753,
+    "customIdentifier": "HIG-25-008",
+    "title": "Search for non-resonant HH production in 2b2tau final state in 13.6 TeV data",
+    "paperIdentifier": "HIG-25-008",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 206,
+      "name": "Analysis Approved"
+    },
+    "proponents": [
+      {
+        "id": 15076,
+        "name": "Jona Motta"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2026-07-30",
+    "gitlabpasrepo": "https://gitlab.cern.ch/tdr/notes/HIG-25-008",
+    "pasCDS": "https://cds.cern.ch/record/2968133",
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": "https://gitlab.cern.ch/tdr/papers/HIG-25-008"
+  },
+  {
+    "id": 19548,
+    "customIdentifier": "HIG-24-008",
+    "title": "Search for boosted H-->WW-->qq,lv/qq (in 0l and 1l final state)",
+    "paperIdentifier": "HIG-24-008",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 15,
+      "name": "Published"
+    },
+    "proponents": [
+      {
+        "id": 6817,
+        "name": "Antonis Agapitos"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2026-07-29",
+    "gitlabpasrepo": "https://gitlab.cern.ch/tdr/notes/HIG-24-008",
+    "pasCDS": "https://cds.cern.ch/record/2932358",
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": "https://gitlab.cern.ch/tdr/papers/HIG-24-008"
+  },
+  {
+    "id": 19738,
+    "customIdentifier": "HIG-25-005",
+    "title": "HH to WWZZ, Run2+Run3(2022+2023)",
+    "paperIdentifier": "HIG-25-005",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 212,
+      "name": "Preapproved"
+    },
+    "proponents": [
+      {
+        "id": 15230,
+        "name": "Ana Sculac"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2026-07-27",
+    "gitlabpasrepo": null,
+    "pasCDS": null,
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": "https://gitlab.cern.ch/tdr/papers/HIG-25-005"
+  },
+  {
+    "id": 19720,
+    "customIdentifier": "HIG-25-003",
+    "title": "Yukawa coupling in H4l offshell",
+    "paperIdentifier": "HIG-25-003",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 12,
+      "name": "Submitted"
+    },
+    "proponents": [
+      {
+        "id": 16940,
+        "name": "Mohit Vir Srivastav"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2026-07-25",
+    "gitlabpasrepo": null,
+    "pasCDS": null,
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": "https://gitlab.cern.ch/tdr/papers/HIG-25-003"
+  },
+  {
+    "id": 19561,
+    "customIdentifier": "HIG-24-012",
+    "title": "Search for HHH(6b) with full Run 2 data",
+    "paperIdentifier": "HIG-24-012",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 210,
+      "name": "Journal Referee Comments"
+    },
+    "proponents": [
+      {
+        "id": 16560,
+        "name": "Marko Stamenkovic"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2026-07-25",
+    "gitlabpasrepo": "https://gitlab.cern.ch/tdr/notes/HIG-24-012",
+    "pasCDS": null,
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": "https://gitlab.cern.ch/tdr/papers/HIG-24-012"
+  },
+  {
+    "id": 19568,
+    "customIdentifier": "HIG-24-015",
+    "title": "Non-resonant HHH in 4b2gamma final state (Run2)",
+    "paperIdentifier": "HIG-24-015",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 214,
+      "name": "End CWR"
+    },
+    "proponents": [
+      {
+        "id": 9507,
+        "name": "Alexandra Carvalho Antunes De Oliveira"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2026-07-24",
+    "gitlabpasrepo": "https://gitlab.cern.ch/tdr/notes/HIG-24-015",
+    "pasCDS": null,
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": "https://gitlab.cern.ch/tdr/papers/HIG-24-015"
+  },
+  {
+    "id": 20047,
+    "customIdentifier": "HIG-26-017",
+    "title": " ttH/tH in the diphoton channel (22+23+24)",
+    "paperIdentifier": "HIG-26-017",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 202,
+      "name": "Group Review"
+    },
+    "proponents": [
+      {
+        "id": 17574,
+        "name": "Samuele Ronchi"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2026-07-13",
+    "gitlabpasrepo": null,
+    "pasCDS": null,
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": null
+  },
+  {
+    "id": 20046,
+    "customIdentifier": "HIG-26-016",
+    "title": "Run2+22+23+24 H(gg)+HF analysis",
+    "paperIdentifier": "HIG-26-016",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 202,
+      "name": "Group Review"
+    },
+    "proponents": [
+      {
+        "id": 16128,
+        "name": "Tiziano Bevilacqua"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2026-07-13",
+    "gitlabpasrepo": null,
+    "pasCDS": null,
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": null
+  },
+  {
+    "id": 19686,
+    "customIdentifier": "HIG-25-001",
+    "title": "VH, H->(cc/bb), merged final state",
+    "paperIdentifier": "HIG-25-001",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 212,
+      "name": "Preapproved"
+    },
+    "proponents": [
+      {
+        "id": 12834,
+        "name": "Fabio Monti"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2026-07-08",
+    "gitlabpasrepo": null,
+    "pasCDS": null,
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": "https://gitlab.cern.ch/tdr/papers/HIG-25-001"
+  },
+  {
+    "id": 20029,
+    "customIdentifier": "HIG-26-015",
+    "title": "HZg Run2+Run3 (16-25)",
+    "paperIdentifier": "HIG-26-015",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 202,
+      "name": "Group Review"
+    },
+    "proponents": [
+      {
+        "id": 14645,
+        "name": "Michael Oshiro"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2026-07-08",
+    "gitlabpasrepo": null,
+    "pasCDS": null,
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": "https://gitlab.cern.ch/tdr/papers/HIG-26-015"
+  },
+  {
+    "id": 19930,
+    "customIdentifier": "HIG-26-011",
+    "title": "Search for HH -&amp;gt; bbgg with Run2+Run3 data",
+    "paperIdentifier": "HIG-26-011",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 204,
+      "name": "Going to Preapproval"
+    },
+    "proponents": [
+      {
+        "id": 6249,
+        "name": "Si Xie"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2026-07-06",
+    "gitlabpasrepo": "https://gitlab.cern.ch/tdr/notes/HIG-26-011",
+    "pasCDS": null,
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": "https://gitlab.cern.ch/tdr/papers/HIG-26-011"
+  },
+  {
+    "id": 20005,
+    "customIdentifier": "HIG-26-014",
+    "title": "Boosted Hbb in ggH, VBF and VH",
+    "paperIdentifier": "HIG-26-014",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 202,
+      "name": "Group Review"
+    },
+    "proponents": [
+      {
+        "id": 13806,
+        "name": "Lara Zygala"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2026-06-30",
+    "gitlabpasrepo": null,
+    "pasCDS": null,
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": null
+  },
+  {
+    "id": 19984,
+    "customIdentifier": "HZG-2016-2025",
+    "title": "Search for Standard Model Higgs to a Z Boson and Photon in the Opposite-Sign Dilepton Final State at 13 TeV and 13.6 TeV",
+    "paperIdentifier": null,
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 201,
+      "name": "Analysis Created"
+    },
+    "proponents": [
+      {
+        "id": 13947,
+        "name": "Daniel Li"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2026-06-23",
+    "gitlabpasrepo": null,
+    "pasCDS": null,
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": null
+  },
+  {
+    "id": 19974,
+    "customIdentifier": "HIG-26-013",
+    "title": "VBS VVH(bb) with Run2+Run3 data",
+    "paperIdentifier": "HIG-26-013",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 202,
+      "name": "Group Review"
+    },
+    "proponents": [
+      {
+        "id": 18007,
+        "name": "Maria Mazza"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2026-06-19",
+    "gitlabpasrepo": null,
+    "pasCDS": null,
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": null
+  },
+  {
+    "id": 19108,
+    "customIdentifier": "HIG-20-012",
+    "title": "X-&amp;gt;YH search in the 4b final state",
+    "paperIdentifier": "HIG-20-012",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 210,
+      "name": "Journal Referee Comments"
+    },
+    "proponents": [
+      {
+        "id": 9616,
+        "name": "Fabio Ravera"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2026-06-08",
+    "gitlabpasrepo": "https://gitlab.cern.ch/tdr/notes/HIG-20-012",
+    "pasCDS": "https://cds.cern.ch/record/2914871",
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": "https://gitlab.cern.ch/tdr/papers/HIG-20-012"
+  },
+  {
+    "id": 19596,
+    "customIdentifier": "HIG-24-017",
+    "title": "Boosted V(qq)H(bb) full Run2",
+    "paperIdentifier": "HIG-24-017",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 15,
+      "name": "Published"
+    },
+    "proponents": [
+      {
+        "id": 16012,
+        "name": "Duc Hoang"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2026-06-06",
+    "gitlabpasrepo": "https://gitlab.cern.ch/tdr/notes/HIG-24-017",
+    "pasCDS": "https://cds.cern.ch/record/2928061",
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": "https://gitlab.cern.ch/tdr/papers/HIG-24-017"
+  },
+  {
+    "id": 19945,
+    "customIdentifier": "HIG-26-012",
+    "title": "Resolved VBF Hbb with partial Run3 data(22-24)",
+    "paperIdentifier": "HIG-26-012",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 202,
+      "name": "Group Review"
+    },
+    "proponents": [
+      {
+        "id": 17982,
+        "name": "Sandeep Pradhan"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2026-06-05",
+    "gitlabpasrepo": null,
+    "pasCDS": null,
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": null
+  },
+  {
+    "id": 19910,
+    "customIdentifier": "HIG-26-009",
+    "title": "Constraint of the Higgs self coupling through ttH(gg) (22+23+24)",
+    "paperIdentifier": "HIG-26-009",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 202,
+      "name": "Group Review"
+    },
+    "proponents": [
+      {
+        "id": 18950,
+        "name": "Ekaterini Veroe Protopapa"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2026-04-17",
+    "gitlabpasrepo": null,
+    "pasCDS": null,
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": null
+  },
+  {
+    "id": 19897,
+    "customIdentifier": "HIG-26-008",
+    "title": "ttH multilepton with Run3 data",
+    "paperIdentifier": "HIG-26-008",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 202,
+      "name": "Group Review"
+    },
+    "proponents": [
+      {
+        "id": 13347,
+        "name": "Jindrich Lidrych"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2026-03-25",
+    "gitlabpasrepo": null,
+    "pasCDS": null,
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": null
+  },
+  {
+    "id": 19883,
+    "customIdentifier": "HIG-26-007",
+    "title": "Fiducial xsec measurement in Hgg, 22+23+24 data",
+    "paperIdentifier": "HIG-26-007",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 202,
+      "name": "Group Review"
+    },
+    "proponents": [
+      {
+        "id": 15074,
+        "name": "Alessandro Tarabini"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2026-02-27",
+    "gitlabpasrepo": null,
+    "pasCDS": null,
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": null
+  },
+  {
+    "id": 19879,
+    "customIdentifier": "HIG-26-006",
+    "title": "STXS and cross section in HWW using Run3 data (22-24)",
+    "paperIdentifier": "HIG-26-006",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 202,
+      "name": "Group Review"
+    },
+    "proponents": [
+      {
+        "id": 18390,
+        "name": "Sebastiano Quinto"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2026-02-13",
+    "gitlabpasrepo": null,
+    "pasCDS": null,
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": null
+  },
+  {
+    "id": 19878,
+    "customIdentifier": "HIG-26-005",
+    "title": "ggHbb with parking data",
+    "paperIdentifier": "HIG-26-005",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 202,
+      "name": "Group Review"
+    },
+    "proponents": [
+      {
+        "id": 17390,
+        "name": "Giovanni Celotto"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2026-02-11",
+    "gitlabpasrepo": null,
+    "pasCDS": null,
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": "https://gitlab.cern.ch/tdr/papers/HIG-26-005"
+  },
+  {
+    "id": 19873,
+    "customIdentifier": "HIG-26-004",
+    "title": "$H \\to \\text{gluongluon}$",
+    "paperIdentifier": "HIG-26-004",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 202,
+      "name": "Group Review"
+    },
+    "proponents": [
+      {
+        "id": 15218,
+        "name": "Connor Moore"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2026-02-08",
+    "gitlabpasrepo": null,
+    "pasCDS": null,
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": "https://gitlab.cern.ch/tdr/papers/HIG-26-004"
+  },
+  {
+    "id": 19862,
+    "customIdentifier": "HIG-26-003",
+    "title": "VHcc/bb inclusive resolved analysis and interpretation (22 23 24)",
+    "paperIdentifier": "HIG-26-003",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 202,
+      "name": "Group Review"
+    },
+    "proponents": [
+      {
+        "id": 12794,
+        "name": "Spandan Mondal"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2026-01-26",
+    "gitlabpasrepo": null,
+    "pasCDS": null,
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": null
+  },
+  {
+    "id": 19861,
+    "customIdentifier": "HIG-26-002",
+    "title": "VHbb differential cross section measurement (22+23+24)",
+    "paperIdentifier": "HIG-26-002",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 202,
+      "name": "Group Review"
+    },
+    "proponents": [
+      {
+        "id": 8781,
+        "name": "Ye Chen"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2026-01-26",
+    "gitlabpasrepo": null,
+    "pasCDS": null,
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": null
+  },
+  {
+    "id": 19852,
+    "customIdentifier": "HIG-26-001",
+    "title": "HH to bbtautau, boosted final state using Run2 data",
+    "paperIdentifier": "HIG-26-001",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 202,
+      "name": "Group Review"
+    },
+    "proponents": [
+      {
+        "id": 15325,
+        "name": "Leonidas Paizanos"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2026-01-12",
+    "gitlabpasrepo": null,
+    "pasCDS": null,
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": null
+  },
+  {
+    "id": 19849,
+    "customIdentifier": "HIG-25-023",
+    "title": "VqqHcc with Run2 data",
+    "paperIdentifier": "HIG-25-023",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 202,
+      "name": "Group Review"
+    },
+    "proponents": [
+      {
+        "id": 18048,
+        "name": "Rupul Chandna"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2025-12-19",
+    "gitlabpasrepo": null,
+    "pasCDS": null,
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": "https://gitlab.cern.ch/tdr/papers/HIG-25-023"
+  },
+  {
+    "id": 19847,
+    "customIdentifier": "HIG-25-022",
+    "title": "HH2b2W in single leptonic channel",
+    "paperIdentifier": "HIG-25-022",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 204,
+      "name": "Going to Preapproval"
+    },
+    "proponents": [
+      {
+        "id": 11768,
+        "name": "Abhisek Datta"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2025-12-19",
+    "gitlabpasrepo": null,
+    "pasCDS": null,
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": "https://gitlab.cern.ch/tdr/papers/HIG-25-022"
+  },
+  {
+    "id": 19839,
+    "customIdentifier": "HIG-25-021",
+    "title": "VBF Higgs to invisible with Run3 data",
+    "paperIdentifier": "HIG-25-021",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 202,
+      "name": "Group Review"
+    },
+    "proponents": [
+      {
+        "id": 12643,
+        "name": "Andrea Malara"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2025-12-03",
+    "gitlabpasrepo": null,
+    "pasCDS": null,
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": null
+  },
+  {
+    "id": 19817,
+    "customIdentifier": "HIG-25-020",
+    "title": "Hgg STXS analysis (Run3: 2022+2023+2024)",
+    "paperIdentifier": "HIG-25-020",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 202,
+      "name": "Group Review"
+    },
+    "proponents": [
+      {
+        "id": 17954,
+        "name": "Thomas Benjamin Runting"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2025-10-17",
+    "gitlabpasrepo": null,
+    "pasCDS": null,
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": null
+  },
+  {
+    "id": 19787,
+    "customIdentifier": "HIG-25-019",
+    "title": "H-&amp;gt;tautau differential cross section measurement in Run3",
+    "paperIdentifier": "HIG-25-019",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 204,
+      "name": "Going to Preapproval"
+    },
+    "proponents": [
+      {
+        "id": 15185,
+        "name": "Braden Allmond"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2025-08-27",
+    "gitlabpasrepo": null,
+    "pasCDS": null,
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": "https://gitlab.cern.ch/tdr/papers/HIG-25-019"
+  },
+  {
+    "id": 19781,
+    "customIdentifier": "HIG-25-017",
+    "title": "VBF H, H-&amp;gt;cc with Run3 data",
+    "paperIdentifier": "HIG-25-017",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 202,
+      "name": "Group Review"
+    },
+    "proponents": [
+      {
+        "id": 14616,
+        "name": "Angela Zaza"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2025-08-07",
+    "gitlabpasrepo": null,
+    "pasCDS": null,
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": null
+  },
+  {
+    "id": 19780,
+    "customIdentifier": "HIG-25-016",
+    "title": "Low mass di-photon Higgs search with Run3 (2022+2023) data",
+    "paperIdentifier": "HIG-25-016",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 202,
+      "name": "Group Review"
+    },
+    "proponents": [
+      {
+        "id": 5338,
+        "name": "Junquan Tao"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2025-08-04",
+    "gitlabpasrepo": null,
+    "pasCDS": null,
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": null
+  },
+  {
+    "id": 19779,
+    "customIdentifier": "HIG-25-015",
+    "title": "H-&amp;gt;4l differential cross-section measurements at 13.6 TeV",
+    "paperIdentifier": "HIG-25-015",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 206,
+      "name": "Analysis Approved"
+    },
+    "proponents": [
+      {
+        "id": 17140,
+        "name": "Martina Manoni"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2025-08-04",
+    "gitlabpasrepo": "https://gitlab.cern.ch/tdr/notes/HIG-25-015",
+    "pasCDS": "https://cds.cern.ch/record/2958220",
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": "https://gitlab.cern.ch/tdr/papers/HIG-25-015"
+  },
+  {
+    "id": 19775,
+    "customIdentifier": "HIG-25-014",
+    "title": "ATLAS+CMS Non resonant HH combination (full Run2)",
+    "paperIdentifier": "HIG-25-014",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 12,
+      "name": "Submitted"
+    },
+    "proponents": [
+      {
+        "id": 9507,
+        "name": "Alexandra Carvalho Antunes De Oliveira"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2025-07-23",
+    "gitlabpasrepo": "https://gitlab.cern.ch/tdr/notes/HIG-25-014",
+    "pasCDS": "https://cds.cern.ch/record/2947521",
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": "https://gitlab.cern.ch/tdr/papers/HIG-25-014"
+  },
+  {
+    "id": 19767,
+    "customIdentifier": "HIG-25-013",
+    "title": "Search for VHmm using Run3 data",
+    "paperIdentifier": "HIG-25-013",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 202,
+      "name": "Group Review"
+    },
+    "proponents": [
+      {
+        "id": 16485,
+        "name": "Botao Guo"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2025-07-10",
+    "gitlabpasrepo": null,
+    "pasCDS": null,
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": null
+  },
+  {
+    "id": 19754,
+    "customIdentifier": "HIG-25-009",
+    "title": "Search for non-resonant HH production in fully boosted 2b2tau final state in 13.6 TeV data",
+    "paperIdentifier": "HIG-25-009",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 202,
+      "name": "Group Review"
+    },
+    "proponents": [
+      {
+        "id": 6249,
+        "name": "Si Xie"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2025-06-10",
+    "gitlabpasrepo": null,
+    "pasCDS": null,
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": null
+  },
+  {
+    "id": 19748,
+    "customIdentifier": "HIG-25-007",
+    "title": "Non resonant HH to bbgg with Run3 22/23",
+    "paperIdentifier": "HIG-25-007",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 221,
+      "name": "PAS-only-PUB"
+    },
+    "proponents": [
+      {
+        "id": 6249,
+        "name": "Si Xie"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2025-05-29",
+    "gitlabpasrepo": "https://gitlab.cern.ch/tdr/notes/HIG-25-007",
+    "pasCDS": "https://cds.cern.ch/record/2945062",
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": "https://gitlab.cern.ch/tdr/papers/HIG-25-007"
+  },
+  {
+    "id": 19742,
+    "customIdentifier": "HIG-25-006",
+    "title": "Search for BSM H-&amp;gt;tau tau with early Run3 data",
+    "paperIdentifier": "HIG-25-006",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 204,
+      "name": "Going to Preapproval"
+    },
+    "proponents": [
+      {
+        "id": 16913,
+        "name": "Zhiyuan Li"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2025-05-14",
+    "gitlabpasrepo": null,
+    "pasCDS": null,
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": "https://gitlab.cern.ch/tdr/papers/HIG-25-006"
+  },
+  {
+    "id": 19706,
+    "customIdentifier": "HIG-25-002",
+    "title": "ATLAS+CMS input to the European Particle Physics Strategy Update 2026",
+    "paperIdentifier": "HIG-25-002",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 221,
+      "name": "PAS-only-PUB"
+    },
+    "proponents": [
+      {
+        "id": 3612,
+        "name": "Steven Lowette"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2025-02-27",
+    "gitlabpasrepo": null,
+    "pasCDS": null,
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": "https://gitlab.cern.ch/tdr/papers/HIG-25-002"
+  },
+  {
+    "id": 19680,
+    "customIdentifier": "HIG-24-019",
+    "title": "WH(tautau) charge asymmetry",
+    "paperIdentifier": "HIG-24-019",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 206,
+      "name": "Analysis Approved"
+    },
+    "proponents": [
+      {
+        "id": 15530,
+        "name": "Ralf Schmieder"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2024-12-17",
+    "gitlabpasrepo": "https://gitlab.cern.ch/tdr/notes/HIG-24-019",
+    "pasCDS": null,
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": "https://gitlab.cern.ch/tdr/papers/HIG-24-019"
+  },
+  {
+    "id": 19614,
+    "customIdentifier": "HIG-24-018",
+    "title": "Search for ttH(cc), full Run2",
+    "paperIdentifier": "HIG-24-018",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 15,
+      "name": "Published"
+    },
+    "proponents": [
+      {
+        "id": 12036,
+        "name": "Sebastian Wuchterl"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2024-09-10",
+    "gitlabpasrepo": "https://gitlab.cern.ch/tdr/notes/HIG-24-018",
+    "pasCDS": "https://cds.cern.ch/record/2929444",
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": "https://gitlab.cern.ch/tdr/papers/HIG-24-018"
+  },
+  {
+    "id": 19562,
+    "customIdentifier": "HIG-24-013",
+    "title": "H-&amp;gt;ZZ-&amp;gt;4l cross sections at 13.6 TeV (2022)",
+    "paperIdentifier": "HIG-24-013",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 15,
+      "name": "Published"
+    },
+    "proponents": [
+      {
+        "id": 12344,
+        "name": "Alessandra Cappati"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2024-05-17",
+    "gitlabpasrepo": "https://gitlab.cern.ch/tdr/notes/HIG-24-013",
+    "pasCDS": "https://cds.cern.ch/record/2904969",
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": "https://gitlab.cern.ch/tdr/papers/HIG-24-013"
+  },
+  {
+    "id": 19559,
+    "customIdentifier": "HIG-24-011",
+    "title": "Higgs boson width from off-shell production in WW->2l2v (full Run 2)",
+    "paperIdentifier": "HIG-24-011",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 15,
+      "name": "Published"
+    },
+    "proponents": [
+      {
+        "id": 12444,
+        "name": "Pedro Jos\u00e9 Fern\u00e1ndez Manteca"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2024-05-14",
+    "gitlabpasrepo": "https://gitlab.cern.ch/tdr/notes/HIG-24-011",
+    "pasCDS": "https://cds.cern.ch/record/2946711",
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": "https://gitlab.cern.ch/tdr/papers/HIG-24-011"
+  },
+  {
+    "id": 19533,
+    "customIdentifier": "HIG-24-004",
+    "title": "H(WW)+2 jets differential (full Run2)",
+    "paperIdentifier": "HIG-24-004",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 15,
+      "name": "Published"
+    },
+    "proponents": [
+      {
+        "id": 14153,
+        "name": "Benedetta Camaiani"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2024-04-08",
+    "gitlabpasrepo": "https://gitlab.cern.ch/tdr/notes/HIG-24-004",
+    "pasCDS": "https://cds.cern.ch/record/2929512",
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": "https://gitlab.cern.ch/tdr/papers/HIG-24-004"
+  },
+  {
+    "id": 19504,
+    "customIdentifier": "HIG-24-001",
+    "title": "VBS same-sign WWH(bb)",
+    "paperIdentifier": "HIG-24-001",
+    "workingGroups": [
+      {
+        "id": 9,
+        "name": "HIG",
+        "fullName": "HIG",
+        "parent": null
+      }
+    ],
+    "currentStage": {
+      "id": 221,
+      "name": "PAS-only-PUB"
+    },
+    "proponents": [
+      {
+        "id": 15410,
+        "name": "Tianyi Yang"
+      }
+    ],
+    "hashtags": [],
+    "registrationDate": "2024-01-18",
+    "gitlabpasrepo": "https://gitlab.cern.ch/tdr/notes/HIG-24-001",
+    "pasCDS": null,
+    "pasReadyforPUB": "false",
+    "gitlabpaperrepo": null
+  }
+]

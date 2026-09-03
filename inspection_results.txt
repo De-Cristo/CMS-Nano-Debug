@@ -1,0 +1,148 @@
+==============================================================================================================
+CMS Run 3 Summer24 NanoAODv15 HTXS Branch Inspection Report
+XRootD Redirector: root://cms-xrd-global.cern.ch//
+Inspecting first 2 events per sample
+==============================================================================================================
+
+-> Inspecting WplusH_Hto2B_WtoLNu (W+H, W->lnu, H->bb)... [BROKEN (Sentinel 0 / NaN)]
+-> Inspecting WminusH_Hto2B_WtoLNu (W-H, W->lnu, H->bb)... [BROKEN (Sentinel 0 / NaN)]
+-> Inspecting WplusH_Hto2B_Wto2Q (W+H, W->qq, H->bb (hadronic W))... [BROKEN (Sentinel 0 / NaN)]
+-> Inspecting WplusH_Hto2C_WtoLNu (W+H, W->lnu, H->cc)... [BROKEN (Sentinel 0 / NaN)]
+-> Inspecting WplusH_Hto2Tau (W+H, H->tautau)... [BROKEN (Sentinel 0 / NaN)]
+-> Inspecting WplusH_Hto2Zto4L (W+H, H->ZZ->4l)... [BROKEN (Sentinel 0 / NaN)]
+-> Inspecting WplusH_Hto2Wto2L2Nu (W+H, W->lnu, H->WW->2l2nu)... [BROKEN (Sentinel 0 / NaN)]
+-> Inspecting WplusH_Hto2Mu (W+H, H->mumu)... [BROKEN (Sentinel 0 / NaN)]
+-> Inspecting WplusH_Hto2G_WtoLNu (W+H, W->lnu, H->gamma gamma)... [POPULATED & VALID]
+-> Inspecting ZH_Hto2B_Zto2L (qq -> ZH, Z->ll, H->bb)... [POPULATED & VALID]
+-> Inspecting ggZH_Hto2B_Zto2L (gg -> ZH, Z->ll, H->bb)... [POPULATED & VALID]
+
+==============================================================================================================
+Sample Key               | Process / Channel              | HTXS Status               | Stage1.2 Codes    
+--------------------------------------------------------------------------------------------------------------
+WplusH_Hto2B_WtoLNu      | W+H, W->lnu, H->bb             | BROKEN (Sentinel 0 / NaN) | [0, 0]            
+WminusH_Hto2B_WtoLNu     | W-H, W->lnu, H->bb             | BROKEN (Sentinel 0 / NaN) | [0, 0]            
+WplusH_Hto2B_Wto2Q       | W+H, W->qq, H->bb (hadronic W) | BROKEN (Sentinel 0 / NaN) | [0, 0]            
+WplusH_Hto2C_WtoLNu      | W+H, W->lnu, H->cc             | BROKEN (Sentinel 0 / NaN) | [0, 0]            
+WplusH_Hto2Tau           | W+H, H->tautau                 | BROKEN (Sentinel 0 / NaN) | [0, 0]            
+WplusH_Hto2Zto4L         | W+H, H->ZZ->4l                 | BROKEN (Sentinel 0 / NaN) | [0, 0]            
+WplusH_Hto2Wto2L2Nu      | W+H, W->lnu, H->WW->2l2nu      | BROKEN (Sentinel 0 / NaN) | [0, 0]            
+WplusH_Hto2Mu            | W+H, H->mumu                   | BROKEN (Sentinel 0 / NaN) | [0, 0]            
+WplusH_Hto2G_WtoLNu      | W+H, W->lnu, H->gamma gamma    | POPULATED & VALID         | [300, 304]        
+ZH_Hto2B_Zto2L           | qq -> ZH, Z->ll, H->bb         | POPULATED & VALID         | [402, 400]        
+ggZH_Hto2B_Zto2L         | gg -> ZH, Z->ll, H->bb         | POPULATED & VALID         | [502, 502]        
+==============================================================================================================
+
+
+==============================================================================================================
+Detailed Per-Sample Inspection Dumps:
+==============================================================================================================
+
+--- WplusH_Hto2B_WtoLNu (W+H, W->lnu, H->bb) ---
+  Dataset: /WplusH-WtoLNu-Hto2B_Par-M-125_TuneCP5_13p6TeV_powhegMINLO-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM
+  File:    /store/mc/RunIII2024Summer24NanoAODv15/WplusH-WtoLNu-Hto2B_Par-M-125_TuneCP5_13p6TeV_powhegMINLO-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/120000/07ce3cf9-a0ee-4f30-a31c-1cd00205bb77.root
+  Status:  BROKEN (Sentinel 0 / NaN)
+  HTXS_V_pt:                    [0. 0.]
+  HTXS_Higgs_y:                 [nan nan]
+  HTXS_Higgs_pt:                [0. 0.]
+  HTXS_njets30:                 [0 0]
+  HTXS_stage1_2_cat_pTjet30GeV: [0 0]
+
+--- WminusH_Hto2B_WtoLNu (W-H, W->lnu, H->bb) ---
+  Dataset: /WminusH-WtoLNu-Hto2B_Par-M-125_TuneCP5_13p6TeV_powhegMINLO-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM
+  File:    /store/mc/RunIII2024Summer24NanoAODv15/WminusH-WtoLNu-Hto2B_Par-M-125_TuneCP5_13p6TeV_powhegMINLO-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2560000/ecb24314-a6a7-4949-833f-e6d3cea38a07.root
+  Status:  BROKEN (Sentinel 0 / NaN)
+  HTXS_V_pt:                    [0. 0.]
+  HTXS_Higgs_y:                 [nan nan]
+  HTXS_Higgs_pt:                [0. 0.]
+  HTXS_njets30:                 [0 0]
+  HTXS_stage1_2_cat_pTjet30GeV: [0 0]
+
+--- WplusH_Hto2B_Wto2Q (W+H, W->qq, H->bb (hadronic W)) ---
+  Dataset: /WplusH-Wto2Q-Hto2B_Par-M-125_TuneCP5_13p6TeV_powhegMINLO-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM
+  File:    /store/mc/RunIII2024Summer24NanoAODv15/WplusH-Wto2Q-Hto2B_Par-M-125_TuneCP5_13p6TeV_powhegMINLO-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2560000/5048f06b-de47-4643-adcb-8a79bbb2daa5.root
+  Status:  BROKEN (Sentinel 0 / NaN)
+  HTXS_V_pt:                    [0. 0.]
+  HTXS_Higgs_y:                 [nan nan]
+  HTXS_Higgs_pt:                [0. 0.]
+  HTXS_njets30:                 [0 0]
+  HTXS_stage1_2_cat_pTjet30GeV: [0 0]
+
+--- WplusH_Hto2C_WtoLNu (W+H, W->lnu, H->cc) ---
+  Dataset: /WplusH-WtoLNu-Hto2C_Par-M-125_TuneCP5_13p6TeV_powhegMINLO-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM
+  File:    /store/mc/RunIII2024Summer24NanoAODv15/WplusH-WtoLNu-Hto2C_Par-M-125_TuneCP5_13p6TeV_powhegMINLO-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/120000/7bf3cc1a-bf20-47ba-8426-2233abf268e3.root
+  Status:  BROKEN (Sentinel 0 / NaN)
+  HTXS_V_pt:                    [0. 0.]
+  HTXS_Higgs_y:                 [nan nan]
+  HTXS_Higgs_pt:                [0. 0.]
+  HTXS_njets30:                 [0 0]
+  HTXS_stage1_2_cat_pTjet30GeV: [0 0]
+
+--- WplusH_Hto2Tau (W+H, H->tautau) ---
+  Dataset: /WplusH-Hto2TauUncorrelatedDecay_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM
+  File:    /store/mc/RunIII2024Summer24NanoAODv15/WplusH-Hto2TauUncorrelatedDecay_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/120000/80ca192d-aebe-47dd-921b-166ed80db5bc.root
+  Status:  BROKEN (Sentinel 0 / NaN)
+  HTXS_V_pt:                    [0. 0.]
+  HTXS_Higgs_y:                 [nan nan]
+  HTXS_Higgs_pt:                [0. 0.]
+  HTXS_njets30:                 [0 0]
+  HTXS_stage1_2_cat_pTjet30GeV: [0 0]
+
+--- WplusH_Hto2Zto4L (W+H, H->ZZ->4l) ---
+  Dataset: /WplusH-Hto2Zto4L_Par-M-125_TuneCP5_13p6TeV_powhegMINLO-jhugen-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM
+  File:    /store/mc/RunIII2024Summer24NanoAODv15/WplusH-Hto2Zto4L_Par-M-125_TuneCP5_13p6TeV_powhegMINLO-jhugen-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/120000/00499adb-f282-42a8-aeab-662231976df0.root
+  Status:  BROKEN (Sentinel 0 / NaN)
+  HTXS_V_pt:                    [0. 0.]
+  HTXS_Higgs_y:                 [nan nan]
+  HTXS_Higgs_pt:                [0. 0.]
+  HTXS_njets30:                 [0 0]
+  HTXS_stage1_2_cat_pTjet30GeV: [0 0]
+
+--- WplusH_Hto2Wto2L2Nu (W+H, W->lnu, H->WW->2l2nu) ---
+  Dataset: /WplusH-WtoLNu-Hto2Wto2L2Nu_Par-M-125_TuneCP5_13p6TeV_powhegMINLO-jhugen-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM
+  File:    /store/mc/RunIII2024Summer24NanoAODv15/WplusH-WtoLNu-Hto2Wto2L2Nu_Par-M-125_TuneCP5_13p6TeV_powhegMINLO-jhugen-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/2f66f9db-1ce0-4a2f-bbcc-6211f77898f9.root
+  Status:  BROKEN (Sentinel 0 / NaN)
+  HTXS_V_pt:                    [0. 0.]
+  HTXS_Higgs_y:                 [nan nan]
+  HTXS_Higgs_pt:                [0. 0.]
+  HTXS_njets30:                 [0 0]
+  HTXS_stage1_2_cat_pTjet30GeV: [0 0]
+
+--- WplusH_Hto2Mu (W+H, H->mumu) ---
+  Dataset: /WplusH-Hto2Mu_Par-M-125_TuneCP5_13p6TeV_powhegMINLO-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3/NANOAODSIM
+  File:    /store/mc/RunIII2024Summer24NanoAODv15/WplusH-Hto2Mu_Par-M-125_TuneCP5_13p6TeV_powhegMINLO-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v3/2810000/aab75a2d-4c20-4b8f-8021-75c2fc60b96c.root
+  Status:  BROKEN (Sentinel 0 / NaN)
+  HTXS_V_pt:                    [0. 0.]
+  HTXS_Higgs_y:                 [nan nan]
+  HTXS_Higgs_pt:                [0. 0.]
+  HTXS_njets30:                 [0 0]
+  HTXS_stage1_2_cat_pTjet30GeV: [0 0]
+
+--- WplusH_Hto2G_WtoLNu (W+H, W->lnu, H->gamma gamma) ---
+  Dataset: /WplusH-Hto2G-WtoLNu_Par-M-125_TuneCP5_13p6TeV_powhegMINLO-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM
+  File:    /store/mc/RunIII2024Summer24NanoAODv15/WplusH-Hto2G-WtoLNu_Par-M-125_TuneCP5_13p6TeV_powhegMINLO-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/cc6787f6-7076-4838-90de-86cc3c5be3cf.root
+  Status:  POPULATED & VALID
+  HTXS_V_pt:                    [ 24.807617 210.96875 ]
+  HTXS_Higgs_y:                 [-3.7304688   0.36242676]
+  HTXS_Higgs_pt:                [23.58496 64.91016]
+  HTXS_njets30:                 [0 1]
+  HTXS_stage1_2_cat_pTjet30GeV: [300 304]
+
+--- ZH_Hto2B_Zto2L (qq -> ZH, Z->ll, H->bb) ---
+  Dataset: /ZH-Zto2L-Hto2B_Par-M-125_TuneCP5_13p6TeV_powhegMINLO-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM
+  File:    /store/mc/RunIII2024Summer24NanoAODv15/ZH-Zto2L-Hto2B_Par-M-125_TuneCP5_13p6TeV_powhegMINLO-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/3f1aaaee-242f-44e4-a3d6-56bc2f6fb19b.root
+  Status:  POPULATED & VALID
+  HTXS_V_pt:                    [89.41016  27.770508]
+  HTXS_Higgs_y:                 [ 1.1340332 -2.947754 ]
+  HTXS_Higgs_pt:                [87.84766  27.954102]
+  HTXS_njets30:                 [0 0]
+  HTXS_stage1_2_cat_pTjet30GeV: [402 400]
+
+--- ggZH_Hto2B_Zto2L (gg -> ZH, Z->ll, H->bb) ---
+  Dataset: /GluGluZH-Zto2L-Hto2B_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM
+  File:    /store/mc/RunIII2024Summer24NanoAODv15/GluGluZH-Zto2L-Hto2B_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/f2b12277-a685-47fb-9ada-e67a5da4c4b9.root
+  Status:  POPULATED & VALID
+  HTXS_V_pt:                    [149.17969 145.49219]
+  HTXS_Higgs_y:                 [-1.1809082  -0.06251526]
+  HTXS_Higgs_pt:                [123.16797 140.27344]
+  HTXS_njets30:                 [0 0]
+  HTXS_stage1_2_cat_pTjet30GeV: [502 502]

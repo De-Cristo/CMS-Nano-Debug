@@ -1,0 +1,10 @@
+# Official CMS 2024 Summer24 PreMix Library for DRPremix step
+# McM Request: HIG-RunIII2024Summer24DRPremix-00159
+# Dataset: /Neutrino_E-10_gun/RunIIISummer24PrePremix-Premixlib2024_140X_mcRun3_2024_realistic_v26-v1/PREMIX
+#
+# Usage in cmsDriver:
+#   --pileup_input "dbs:/Neutrino_E-10_gun/RunIIISummer24PrePremix-Premixlib2024_140X_mcRun3_2024_realistic_v26-v1/PREMIX"
+# Or if using local filelist:
+#   --pileup_input "filelist:configs/pileup/RunIII2024Summer24_premix_input.txt"
+
+dbs:/Neutrino_E-10_gun/RunIIISummer24PrePremix-Premixlib2024_140X_mcRun3_2024_realistic_v26-v1/PREMIX

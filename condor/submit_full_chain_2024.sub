@@ -1,0 +1,35 @@
+# ==============================================================================
+# submit_full_chain_2024.sub
+# ==============================================================================
+# HTCondor submit description for 2024 Full Generation Chain (Gridpack -> NanoAOD)
+# ==============================================================================
+
+Universe              = vanilla
+Executable            = condor/condor_full_chain_wrapper.sh
+Proxy_filename        = x509up
+
+arguments             = $(Proxy_filename) $(Cluster) $(Process) $(Fragment) $(EosDir) $(ApplyPatch) $(Events)
+
+should_transfer_files = YES
+transfer_input_files  = condor/$(Proxy_filename),scripts,configs,patches
+
+when_to_transfer_output = ON_EXIT
+transfer_output_files = ""
+
+request_cpus          = 4
+request_memory        = 6000
++JobFlavour           = "tomorrow"
++MaxRuntime           = 86400
+
+Output                = logs/fullchain_$(Cluster)_$(Process).out
+Error                 = logs/fullchain_$(Cluster)_$(Process).err
+Log                   = logs/fullchain_$(Cluster).log
+
+# Default parameters
+Fragment              = configs/fragments/WplusH_Hto2B_WtoLNu_13p6TeV_powhegMINLO_fragment.py
+ApplyPatch            = 1
+Events                = 200
+EosDir                = /eos/user/l/lichengz/WH_2024_FullChain_Patched/
+
+# Example submission:
+# queue 20

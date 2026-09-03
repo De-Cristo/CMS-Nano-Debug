@@ -1,0 +1,35 @@
+--- a/GeneratorInterface/RivetInterface/plugins/HTXSRivetProducer.cc
++++ b/GeneratorInterface/RivetInterface/plugins/HTXSRivetProducer.cc
+@@ -74,7 +74,7 @@ void HTXSRivetProducer::produce(edm::Event& iEvent, const edm::EventSetup&) {
+ 
+     if (_prodMode == "AUTO") {
+       // for these prod modes, don't change what is set in BeginRun
+-      if (m_HiggsProdMode != HTXS::GGF && m_HiggsProdMode != HTXS::VBF && m_HiggsProdMode != HTXS::GG2ZH) {
++      if (m_HiggsProdMode == HTXS::UNKNOWN) {
+         unsigned nWs = 0;
+         unsigned nZs = 0;
+         unsigned nTs = 0;
+@@ -213,6 +213,11 @@ void HTXSRivetProducer::beginRun(edm::Run const& iRun, edm::EventSetup const& es
+             m_HiggsProdMode = HTXS::QQ2ZH;
+             break;
+           }
++          if (line.find("HWJ") != std::string::npos || line.find("HW_") != std::string::npos || line.find("Process: HW") != std::string::npos) {
++            edm::LogInfo("HTXSRivetProducer") << iLine << " " << line << std::endl;
++            m_HiggsProdMode = HTXS::WH;
++            break;
++          }
+           if (line.find("ggHZ") != std::string::npos) {
+             edm::LogInfo("HTXSRivetProducer") << iLine << " " << line << std::endl;
+             m_HiggsProdMode = HTXS::GG2ZH;
+@@ -233,6 +238,11 @@ void HTXSRivetProducer::beginRun(edm::Run const& iRun, edm::EventSetup const& es
+             m_HiggsProdMode = HTXS::QQ2ZH;
+             break;
+           }
++          if (line.find("wh012j") != std::string::npos || line.find("whj") != std::string::npos) {
++            edm::LogInfo("HTXSRivetProducer") << iLine << " " << line << std::endl;
++            m_HiggsProdMode = HTXS::WH;
++            break;
++          }
+           if (line.find("ggzh01j") != std::string::npos) {
+             edm::LogInfo("HTXSRivetProducer") << iLine << " " << line << std::endl;
+             m_HiggsProdMode = HTXS::GG2ZH;

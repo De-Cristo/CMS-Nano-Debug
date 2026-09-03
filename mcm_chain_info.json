@@ -1,0 +1,275 @@
+{
+  "HIG-RunIII2024Summer24wmLHEGS-00042": {
+    "cmssw_release": "CMSSW_14_0_19",
+    "energy": 13.6,
+    "sequences": [
+      {
+        "eventcontent": [
+          "RAWSIM",
+          "LHE"
+        ],
+        "runsScenarioForMC": "",
+        "donotDropOnInput": "",
+        "extra": "",
+        "inputEventContent": "",
+        "runsAndWeightsForMC": "",
+        "dropDescendant": false,
+        "pileup": "",
+        "hltProcess": "",
+        "index": -1,
+        "customise": "",
+        "custom_conditions": "",
+        "datatier": [
+          "GEN-SIM",
+          "LHE"
+        ],
+        "processName": "",
+        "inputCommands": "",
+        "particle_table": "",
+        "conditions": "140X_mcRun3_2024_realistic_v26",
+        "harvesting": "",
+        "triggerResultsProcess": "",
+        "slhc": "",
+        "beamspot": "DBrealistic",
+        "restoreRNDSeeds": "",
+        "filtername": "",
+        "repacked": "",
+        "customise_commands": "",
+        "step": [
+          "LHE",
+          "GEN",
+          "SIM"
+        ],
+        "gflash": "",
+        "magField": "",
+        "himix": false,
+        "scenario": "",
+        "geometry": "DB:Extended",
+        "datamix": "",
+        "inline_custom": false,
+        "era": "Run3_2024",
+        "outputCommand": "",
+        "nThreads": "4",
+        "procModifiers": "",
+        "nStreams": 0
+      }
+    ],
+    "dataset_name": "WplusH-WtoLNu-Hto2B_Par-M-125_TuneCP5_13p6TeV_powhegMINLO-pythia8",
+    "fragment_url": "https://cms-pdmv-prod.web.cern.ch/mcm/public/restapi/requests/get_fragment/HIG-RunIII2024Summer24wmLHEGS-00042"
+  },
+  "HIG-RunIII2024Summer24DRPremix-00159": {
+    "cmssw_release": "CMSSW_14_0_20",
+    "energy": 13.6,
+    "sequences": [
+      {
+        "eventcontent": [
+          "PREMIXRAW"
+        ],
+        "runsScenarioForMC": "",
+        "donotDropOnInput": "",
+        "extra": "",
+        "inputEventContent": "",
+        "runsAndWeightsForMC": "",
+        "dropDescendant": false,
+        "pileup": "",
+        "hltProcess": "",
+        "index": -1,
+        "customise": "",
+        "custom_conditions": "",
+        "datatier": [
+          "GEN-SIM-RAW"
+        ],
+        "processName": "",
+        "inputCommands": "",
+        "particle_table": "",
+        "conditions": "140X_mcRun3_2024_realistic_v26",
+        "harvesting": "",
+        "triggerResultsProcess": "",
+        "slhc": "",
+        "beamspot": "",
+        "restoreRNDSeeds": "",
+        "filtername": "",
+        "repacked": "",
+        "customise_commands": "",
+        "step": [
+          "DIGI",
+          "DATAMIX",
+          "L1",
+          "DIGI2RAW",
+          "HLT:2024v14"
+        ],
+        "gflash": "",
+        "magField": "",
+        "himix": false,
+        "scenario": "",
+        "geometry": "DB:Extended",
+        "datamix": "PreMix",
+        "inline_custom": false,
+        "era": "Run3_2024",
+        "outputCommand": "",
+        "nThreads": "4",
+        "procModifiers": "premix_stage2",
+        "nStreams": 0
+      },
+      {
+        "eventcontent": [
+          "AODSIM"
+        ],
+        "runsScenarioForMC": "",
+        "donotDropOnInput": "",
+        "extra": "",
+        "inputEventContent": "",
+        "runsAndWeightsForMC": "",
+        "dropDescendant": false,
+        "pileup": "",
+        "hltProcess": "",
+        "index": -1,
+        "customise": "",
+        "custom_conditions": "",
+        "datatier": [
+          "AODSIM"
+        ],
+        "processName": "",
+        "inputCommands": "",
+        "particle_table": "",
+        "conditions": "140X_mcRun3_2024_realistic_v26",
+        "harvesting": "",
+        "triggerResultsProcess": "",
+        "slhc": "",
+        "beamspot": "",
+        "restoreRNDSeeds": "",
+        "filtername": "",
+        "repacked": "",
+        "customise_commands": "",
+        "step": [
+          "RAW2DIGI",
+          "L1Reco",
+          "RECO",
+          "RECOSIM"
+        ],
+        "gflash": "",
+        "magField": "",
+        "himix": false,
+        "scenario": "",
+        "geometry": "DB:Extended",
+        "datamix": "",
+        "inline_custom": false,
+        "era": "Run3_2024",
+        "outputCommand": "",
+        "nThreads": "4",
+        "procModifiers": "",
+        "nStreams": 0
+      }
+    ],
+    "dataset_name": "WplusH-WtoLNu-Hto2B_Par-M-125_TuneCP5_13p6TeV_powhegMINLO-pythia8",
+    "fragment_url": null
+  },
+  "HIG-RunIII2024Summer24MiniAODv6-00064": {
+    "cmssw_release": "CMSSW_15_0_2",
+    "energy": 13.6,
+    "sequences": [
+      {
+        "eventcontent": [
+          "MINIAODSIM1"
+        ],
+        "runsScenarioForMC": "",
+        "donotDropOnInput": "",
+        "extra": "",
+        "inputEventContent": "",
+        "runsAndWeightsForMC": "",
+        "dropDescendant": false,
+        "pileup": "",
+        "hltProcess": "",
+        "index": -1,
+        "customise": "",
+        "custom_conditions": "",
+        "datatier": [
+          "MINIAODSIM"
+        ],
+        "processName": "",
+        "inputCommands": "",
+        "particle_table": "",
+        "conditions": "150X_mcRun3_2024_realistic_v2",
+        "harvesting": "",
+        "triggerResultsProcess": "",
+        "slhc": "",
+        "beamspot": "",
+        "restoreRNDSeeds": "",
+        "filtername": "",
+        "repacked": "",
+        "customise_commands": "",
+        "step": [
+          "PAT"
+        ],
+        "gflash": "",
+        "magField": "",
+        "himix": false,
+        "scenario": "",
+        "geometry": "DB:Extended",
+        "datamix": "",
+        "inline_custom": false,
+        "era": "Run3_2024",
+        "outputCommand": "",
+        "nThreads": "4",
+        "procModifiers": "",
+        "nStreams": 0
+      }
+    ],
+    "dataset_name": "WplusH-WtoLNu-Hto2B_Par-M-125_TuneCP5_13p6TeV_powhegMINLO-pythia8",
+    "fragment_url": null
+  },
+  "HIG-RunIII2024Summer24NanoAODv15-00064": {
+    "cmssw_release": "CMSSW_15_0_2",
+    "energy": 13.6,
+    "sequences": [
+      {
+        "eventcontent": [
+          "NANOEDMAODSIM1"
+        ],
+        "runsScenarioForMC": "",
+        "donotDropOnInput": "",
+        "extra": "",
+        "inputEventContent": "",
+        "runsAndWeightsForMC": "",
+        "dropDescendant": false,
+        "pileup": "",
+        "hltProcess": "",
+        "index": -1,
+        "customise": "",
+        "custom_conditions": "",
+        "datatier": [
+          "NANOAODSIM"
+        ],
+        "processName": "",
+        "inputCommands": "",
+        "particle_table": "",
+        "conditions": "150X_mcRun3_2024_realistic_v2",
+        "harvesting": "",
+        "triggerResultsProcess": "",
+        "slhc": "",
+        "beamspot": "",
+        "restoreRNDSeeds": "",
+        "filtername": "",
+        "repacked": "",
+        "customise_commands": "",
+        "step": [
+          "NANO"
+        ],
+        "gflash": "",
+        "magField": "",
+        "himix": false,
+        "scenario": "pp",
+        "geometry": "",
+        "datamix": "",
+        "inline_custom": false,
+        "era": "Run3_2024",
+        "outputCommand": "",
+        "nThreads": "4",
+        "procModifiers": "",
+        "nStreams": 0
+      }
+    ],
+    "dataset_name": "WplusH-WtoLNu-Hto2B_Par-M-125_TuneCP5_13p6TeV_powhegMINLO-pythia8",
+    "fragment_url": null
+  }
+}
