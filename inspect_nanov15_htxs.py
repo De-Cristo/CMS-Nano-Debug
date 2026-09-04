@@ -116,9 +116,14 @@ BRANCHES = [
 def check_sample(key, info, redirector, n_entries, verbose=False):
     import uproot
 
-    # Ensure double slash for XRootD global redirectors: root://host//store/...
-    base = redirector.split("//")[0] + "//" + redirector.split("//")[1].split("/")[0] + "//"
-    url = base + info["file"].lstrip("/")
+    filepath = info["file"]
+    if filepath.startswith("/eos/") or filepath.startswith("/afs/") or filepath.startswith("./") or filepath.startswith("file:") or not redirector:
+        url = filepath
+    else:
+        # Ensure double slash for XRootD global redirectors: root://host//store/...
+        base = redirector.split("//")[0] + "//" + redirector.split("//")[1].split("/")[0] + "//"
+        url = base + filepath.lstrip("/")
+
     result = {
         "key": key,
         "title": info["title"],
@@ -177,6 +182,7 @@ def main():
     parser = argparse.ArgumentParser(description="Inspect HTXS in NanoAODv15 samples")
     parser.add_argument("--redirector", default="root://cms-xrd-global.cern.ch//", help="XRootD redirector")
     parser.add_argument("--entries", type=int, default=5, help="Number of entries to inspect per file")
+    parser.add_argument("--file", "-f", default=None, help="Inspect a specific local or remote ROOT file directly")
     parser.add_argument("--process", choices=list(SAMPLES.keys()), default=None, help="Inspect only a specific process")
     parser.add_argument("--verbose", "-v", action="store_true", help="Print per-event array values")
     args = parser.parse_args()
@@ -187,7 +193,18 @@ def main():
         print("Error: 'uproot' package is required. Run this script in an environment with uproot.", file=sys.stderr)
         sys.exit(1)
 
-    samples_to_check = {args.process: SAMPLES[args.process]} if args.process else SAMPLES
+    if args.file:
+        samples_to_check = {
+            "CustomFile": {
+                "title": args.file.split("/")[-1],
+                "category": "Direct File",
+                "dataset": "N/A",
+                "file": args.file,
+            }
+        }
+    else:
+        samples_to_check = {args.process: SAMPLES[args.process]} if args.process else SAMPLES
+
 
     print("=" * 110)
     print("CMS Run 3 Summer24 NanoAODv15 HTXS Branch Inspection Report")
