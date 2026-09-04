@@ -125,7 +125,12 @@ echo " Events/Job:  $EVENTS"
 echo " Dry Run:     $([ "$DRY_RUN" -eq 1 ] && echo 'YES' || echo 'NO')"
 echo "========================================================================"
 
-SUBMIT_CMD="condor_submit $SUB_FILE $APPEND_ARGS -queue $NJOBS"
+if grep -qE "^\s*queue\s+" "$SUB_FILE"; then
+    SUBMIT_CMD="condor_submit $SUB_FILE $APPEND_ARGS"
+else
+    SUBMIT_CMD="condor_submit $SUB_FILE $APPEND_ARGS -queue $NJOBS"
+fi
+
 
 if [ "$DRY_RUN" -eq 1 ]; then
     echo "[INFO] Dry run requested. Command to execute:"

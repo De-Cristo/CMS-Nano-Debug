@@ -22,8 +22,9 @@ INPUT_FILE=$4
 EOS_DIR=$5
 APPLY_PATCH=${6:-0}
 EVENTS=${7:-500}
+SAMPLE_TAG=${8:-"sample"}
 
-echo "[CONDOR WORKER] Starting MiniAOD -> NanoAOD Job: Cluster $CLUSTER, Process $PROCESS"
+echo "[CONDOR WORKER] Starting MiniAOD -> NanoAOD Job: Cluster $CLUSTER, Process $PROCESS ($SAMPLE_TAG)"
 echo "[CONDOR WORKER] Hostname: $(hostname)"
 echo "[CONDOR WORKER] Timestamp: $(date)"
 
@@ -35,14 +36,22 @@ else
     echo "[WARNING] Proxy file $X509_USER_PROXY not found!"
 fi
 
+# Pre-extract patched package if bundled
+if [ -f "patched_packages.tar.gz" ]; then
+    echo "[CONDOR WORKER] Unpacking pre-patched package into CMSSW_15_0_2/src..."
+    mkdir -p CMSSW_15_0_2/src
+    tar -xzf patched_packages.tar.gz -C CMSSW_15_0_2/src/
+fi
+
 chmod +x scripts/run_mini_to_nano.sh
+chmod +x scripts/setup_cmssw_env.sh
 
 PATCH_ARG=""
 if [ "$APPLY_PATCH" -eq 1 ]; then
     PATCH_ARG="--apply-patch"
 fi
 
-OUT_LOCAL="nanoaod_job_${CLUSTER}_${PROCESS}.root"
+OUT_LOCAL="nanoaod_${SAMPLE_TAG}_job${PROCESS}.root"
 
 ./scripts/run_mini_to_nano.sh \
     --input "$INPUT_FILE" \
@@ -54,10 +63,12 @@ OUT_LOCAL="nanoaod_job_${CLUSTER}_${PROCESS}.root"
 # Transfer to target EOS directory
 if [ -n "$EOS_DIR" ] && [ -f "$OUT_LOCAL" ]; then
     mkdir -p "$EOS_DIR"
-    FINAL_DEST="${EOS_DIR}/nanoaod_${CLUSTER}_${PROCESS}.root"
+    FINAL_DEST="${EOS_DIR}/NanoAODv15_${SAMPLE_TAG}_job${PROCESS}.root"
     echo "[CONDOR WORKER] Copying output to: $FINAL_DEST"
     cp "$OUT_LOCAL" "$FINAL_DEST"
+    rm -f "$OUT_LOCAL"
     echo "[CONDOR WORKER] Transfer complete."
 fi
 
 echo "[CONDOR WORKER] Finished successfully at $(date)."
+

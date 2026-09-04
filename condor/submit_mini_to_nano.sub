@@ -8,19 +8,18 @@ Universe              = vanilla
 Executable            = condor/condor_mini_to_nano_wrapper.sh
 Proxy_filename        = x509up
 
-# Arguments: Proxy Cluster Process InputFile EosDir ApplyPatch Events
-arguments             = $(Proxy_filename) $(Cluster) $(Process) $(InputFile) $(EosDir) $(ApplyPatch) $(Events)
+# Arguments: Proxy Cluster Process InputFile EosDir ApplyPatch Events SampleTag
+arguments             = $(Proxy_filename) $(Cluster) $(Process) $(InputFile) $(EosDir) $(ApplyPatch) $(Events) $(SampleTag)
 
 should_transfer_files = YES
-transfer_input_files  = condor/$(Proxy_filename),scripts,patches
+transfer_input_files  = condor/$(Proxy_filename),scripts,patches,condor/patched_packages.tar.gz
 
 when_to_transfer_output = ON_EXIT
 transfer_output_files = ""
 
 request_cpus          = 4
 request_memory        = 4000
-+JobFlavour           = "workday"
-+MaxRuntime           = 28800
++JobFlavour           = "longlunch"
 
 Output                = logs/mini2nano_$(Cluster)_$(Process).out
 Error                 = logs/mini2nano_$(Cluster)_$(Process).err
@@ -28,9 +27,9 @@ Log                   = logs/mini2nano_$(Cluster).log
 
 # Default parameters (can be overridden from command line via -append)
 ApplyPatch            = 1
-Events                = 500
-EosDir                = /eos/user/l/lichengz/WH_NanoAODv15_Patched/
+Events                = 10000
+EosDir                = /eos/user/l/lichengz/VHBBBOX/nano-test/
 
-# Example queue definition (user can supply a file with input LFNs)
-# InputFile           = root://cms-xrd-global.cern.ch///store/mc/...
-# queue 10
+# 10 jobs (5 W+H and 5 W-H, 10k events each = 100,000 events total)
+queue InputFile, SampleTag from condor/jobs_100k.txt
+
