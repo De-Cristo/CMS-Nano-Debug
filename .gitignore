@@ -32,3 +32,5 @@ __pycache__/
 *.swp
 *~
 *.tar.gz
+logs/*.out
+logs/*.err
