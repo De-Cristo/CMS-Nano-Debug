@@ -172,10 +172,12 @@ fi
 # ------------------------------------------------------------------------------
 # 3. Generate cmsDriver Python Configuration
 # ------------------------------------------------------------------------------
-CONFIG_PY="nano_step_cfg.py"
-REPORT_XML="nano_step_report.xml"
+OUT_BASENAME="$(basename "$OUTPUT_FILE" .root)"
+CONFIG_PY="nano_step_${OUT_BASENAME}_cfg.py"
+REPORT_XML="nano_step_${OUT_BASENAME}_report.xml"
 
 echo "[INFO] Generating cmsDriver configuration: $CONFIG_PY"
+
 
 # Exact configuration matched to McM HIG-RunIII2024Summer24NanoAODv15-00064
 cmsDriver.py step_nano \
@@ -223,5 +225,6 @@ echo "========================================================================"
 # Quick check on generated file if inspect_nanov15_htxs.py is available
 if [ -f "$REPO_DIR/inspect_nanov15_htxs.py" ]; then
     echo "[INFO] Running quick HTXS branch inspection on output file..."
-    python3 "$REPO_DIR/inspect_nanov15_htxs.py" --entries 3 --verbose 2>/dev/null || true
+    python3 "$REPO_DIR/inspect_nanov15_htxs.py" --file "$OUTPUT_FILE" --entries 3 --verbose 2>/dev/null || true
 fi
+
