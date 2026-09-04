@@ -143,10 +143,21 @@ cd "$CMSSW_SRC"
 # 2. Patching and Local Compilation (Optional)
 # ------------------------------------------------------------------------------
 if [ "$APPLY_PATCH" -eq 1 ]; then
-    echo "[INFO] Checking out GeneratorInterface/RivetInterface..."
     if [ ! -d "GeneratorInterface/RivetInterface" ]; then
+        if [ -f "$REPO_DIR/condor/patched_packages.tar.gz" ]; then
+            echo "[INFO] Extracting pre-patched package from $REPO_DIR/condor/patched_packages.tar.gz..."
+            tar -xzf "$REPO_DIR/condor/patched_packages.tar.gz" -C "$CMSSW_SRC/"
+        elif [ -f "$WORK_DIR/patched_packages.tar.gz" ]; then
+            echo "[INFO] Extracting pre-patched package from $WORK_DIR/patched_packages.tar.gz..."
+            tar -xzf "$WORK_DIR/patched_packages.tar.gz" -C "$CMSSW_SRC/"
+        fi
+    fi
+
+    if [ ! -d "GeneratorInterface/RivetInterface" ]; then
+        echo "[INFO] Checking out GeneratorInterface/RivetInterface via git cms-addpkg..."
         git cms-addpkg GeneratorInterface/RivetInterface
     fi
+
 
     TARGET_CC="$CMSSW_SRC/GeneratorInterface/RivetInterface/plugins/HTXSRivetProducer.cc"
     if grep -q 'line.find("HWJ")' "$TARGET_CC" 2>/dev/null; then

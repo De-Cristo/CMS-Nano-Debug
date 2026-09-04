@@ -31,8 +31,9 @@ source /cvmfs/cms.cern.ch/cmsset_default.sh
 
 cd "$BASE_DIR" || exit 1
 
-if [ -d "$RELEASE/src" ]; then
+if [ -d "$RELEASE/.SCRAM" ]; then
     echo "[setup_cmssw_env] Found existing area: $BASE_DIR/$RELEASE"
+
 else
     echo "[setup_cmssw_env] Creating new project: $RELEASE under $BASE_DIR"
     scram project CMSSW "$RELEASE" || {
